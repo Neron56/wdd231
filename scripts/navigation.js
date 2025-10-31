@@ -8,13 +8,13 @@ icon.addEventListener("click", () => {
 function hamburger(menu) {    
         if (menu === "closed"){
             menu = "open";
-            nav.style.display = "block";
-            icon.innerHTML = "<img src='images/closeIcon.svg' alt='hamburger menu' width='30px'>"
+            nav.style.display = "grid";
+            icon.innerHTML = "<img src='images/close-icon.svg' alt='hamburger menu' width='30px'>"
             return menu
         } else {
             menu = "closed";
             nav.style.display = "none";
-            icon.innerHTML = "<img src='images/hamburgerIcon.svg' alt='hamburger menu' width='30px'>"
+            icon.innerHTML = "<img src='images/hamburger-icon.svg' alt='hamburger menu' width='30px'>"
             return menu
         }
 }
