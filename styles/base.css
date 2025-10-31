@@ -1,0 +1,9 @@
+@media screen and (max-width: 640px){
+    
+    #sections{
+        display: grid;
+        grid-template-columns: 9fr 4fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
