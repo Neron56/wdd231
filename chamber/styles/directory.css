@@ -1,0 +1,38 @@
+@media screen and (max-width: 640px){
+    header{
+        display: grid;
+    }
+    #icon{
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+        background-color: #d7ecff;
+        border: 2px solid;
+    }
+    #icon img{
+        width: 50px;
+    }
+    #navigation{
+        display: none;
+
+    }
+    #sections{
+        display: block;
+    }
+    #about p{
+        padding: 15px;
+    }
+    #certificates{
+        margin-top: 20px;
+    }
+    #courseList{
+        gap: 10px;
+        justify-content: center;
+    }
+    #courseList section{
+        width: 80%;
+    }
+    #courseList h3{
+        margin: 5px 0px;
+    }
+}

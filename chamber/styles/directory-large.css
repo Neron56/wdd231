@@ -1,0 +1,153 @@
+:root{
+    --primary-color: #083e7a;
+    --secondary-color: #b2dcff;
+    --tertiary-color: #5f9ea0;
+    --font-family: "Roboto";
+}
+@media screen and (min-width: 320px){
+    main{
+        font-family: "roboto";
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    header{
+        margin: 10px 0px;
+        padding: 0px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        background-color: var(--primary-color);
+    }
+    header div{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 10px;
+    }
+    #title{
+        color: #e9effa;
+        font-size: 30px;
+    }
+    #logo{
+        width: 90px;
+    }
+    #icon{
+        display:none;
+    }
+    nav{
+        background-color: var(--primary-color);
+        padding:15px;
+        font-size: 20px;
+    }
+    nav a{
+        padding:0px 10px;
+        text-decoration: none;
+        color: #e9effa;
+    }
+    nav a:hover{
+        color: var(--tertiary-color);
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        color: #e9effa;
+        background-color: var(--primary-color);
+        text-align: center;
+    }
+    #buttons{
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+    }
+    button{
+        border: 2px solid var(--primary-color);
+        background-color: #e3fffe;
+        width: 40%;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    button:hover{
+        background-color: #c6e7e6;
+    }
+    button:active{
+        background-color: #accac9;
+    }
+    #businessDetails{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #businessTable{
+        width: 70%;
+        border:2px solid var(--primary-color);
+        margin-bottom: 20px;
+    }
+    th{
+        text-align: left;
+        background-color: var(--primary-color);
+        color: #e9effa;
+        padding-left: 10px;
+    }
+    td{
+        padding-left: 10px;
+    }
+    tr{
+        height: 60px;
+    }
+    tr:nth-child(even){
+        background-color: var(--secondary-color);
+    }
+    tr:hover{
+        background-color: #cee0f5;
+    }
+    tr:nth-child(even):hover{
+        background-color: #abcbf0;
+    }
+    #businessCards{
+        display: none;
+        width: 70%;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 20px;
+    }
+    .card{
+        width: 100%;
+        background-color: var(--secondary-color);
+        border: 2px solid var(--primary-color);
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .card h3{
+        margin: 5px 0px;
+    }
+    .card p{
+        margin: 5px;
+    }
+    #links{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    #links img{
+        width: 50px;
+    }
+    #cards{
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    footer{
+        text-align: center;
+        display:grid;
+        background-color: var(--secondary-color);
+        padding:10px 0px;
+    }
+}

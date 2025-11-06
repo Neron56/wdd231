@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD231-Michael Shaw</title>
+        <meta name="description" content="Home page for the sites created throughout WDD231 Using everything i have learned from my previous classes">
+        <meta name="author" content="Michael Shaw">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/directory-large.css">
+        <link rel="stylesheet" href="styles/directory.css">
+        <script src="scripts/directory.js" defer></script>
+        <script src="../scripts/date.js" defer></script>
+        <script src="../scripts/navigation.js" defer></script>
+        <script src="scripts/directory-type.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Calycanthaceae Chamber of Commerce Directory">
+        <meta property="og:description" content="A useful Directory of all the businesses found in this fine city">
+        <meta property="og:image" content="https://www.neron56.github.io/wdd231/chamber/images/cat.jpeg">
+        <meta property="og:url" content="https://www.neron56.github.io/wdd231/chamber/directory.html">
+    </head>
+    <body>
+        <header>
+            <div>
+                <div>
+                    <img src="images/cat.jpg" id="logo">
+                    <span id="title">Calycanthaceae Chamber of Commerce</span>
+                </div>
+                <a id="icon">
+                    <img src="images/hamburger-icon.svg" alt="hamburger menu" width="30">
+                </a>
+            </div>
+            <nav id="navigation">
+                <a href="#">Home</a>
+                <a href="#">Directory</a>
+                <a href="#">Join</a>
+                <a href="#">Discover</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Business Directory</h1>
+            <div id="buttons">
+                <button id="tableIcon">table</button>
+                <button id="cardIcon">grid</button>
+            </div>
+            <div id="businessDetails">
+                <table id="businessTable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone-Number</th>
+                        <th>Website</th>
+                    </tr>
+                </table>
+                <div id="businessCards">
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <span id="currentYear"></span>
+            <span id="lastModified"></span>
+        </footer>
+    </body>
+</html>
