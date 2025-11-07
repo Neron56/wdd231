@@ -20,6 +20,7 @@
         justify-content: space-between;
         gap: 10px;
         background-color: var(--primary-color);
+        color: #e9effa;
     }
     header div{
         display: flex;
@@ -132,6 +133,9 @@
     }
     .card p{
         margin: 5px;
+    }
+    .card img{
+        max-width: 200px;
     }
     #cards{
         display: none;

@@ -1,35 +1,35 @@
 {
     "businesses":[
         {
-            "name": "test business",
-            "address": "test Address",
+            "name": "Cats 'R' Us",
+            "address": "1392 S 5620 W, Calycanthaceae, USA",
             "number": "888-888-8888",
-            "url": "website.com",
+            "url": "CatsRUs.com",
             "logo": "images/cat.jpg",
             "membership": 2
         },
         {
-            "name": "test business",
-            "address": "test Address",
-            "number": "888-888-8888",
-            "url": "website.com",
-            "logo": "images/cat.jpg",
+            "name": "Business Creators",
+            "address": "105 Business Drive, Nexttownover, USA",
+            "number": "777-777-7777",
+            "url": "BuildABusiness.com",
+            "logo": "images/business-creators.jpeg",
             "membership": 2
         },
         {
-            "name": "test business",
-            "address": "test Address",
-            "number": "888-888-8888",
-            "url": "website.com",
-            "logo": "images/cat.jpg",
+            "name": "Tool Warehouse",
+            "address": "707 Business Drive, Nexttownover, USA",
+            "number": "468-468-4687",
+            "url": "WarehouseForTools.com",
+            "logo": "images/tool-warehouse.jpeg",
             "membership": 2
         },
         {
-            "name": "test business",
-            "address": "test Address",
+            "name": "Neighborhood Grocers",
+            "address": "37 Spring Avenue, Calycanthaceae, USA",
             "number": "888-888-8888",
             "url": "website.com",
-            "logo": "images/cat.jpg",
+            "logo": "images/neighborhood-grocer.png",
             "membership": 2
         },
         {
