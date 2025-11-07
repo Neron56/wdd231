@@ -1,7 +1,7 @@
 createbusinessList()
 
 async function createbusinessList() {
-    const response = await fetch("http://127.0.0.1:5500/chamber/data/members.json")
+    const response = await fetch("https://neron56.github.io/wdd231/chamber/data/members.json")
     const businesses = await response.json();
     tablebusinesses(businesses.businesses)   
     cardbusinesses(businesses.businesses)

@@ -16,7 +16,6 @@ function openTable() {
 function openCards() {
     table.style.display = "none";
     if(window.screen.width >= 640){
-        console.log("larger screen")
         cards.style.display = "grid";
     }
     else{
