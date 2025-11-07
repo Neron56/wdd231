@@ -42,6 +42,9 @@
         padding:15px;
         font-size: 20px;
     }
+    #current{
+        text-decoration: underline;
+    }
     nav a{
         padding:0px 10px;
         text-decoration: none;
@@ -129,14 +132,6 @@
     }
     .card p{
         margin: 5px;
-    }
-    #links{
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
-    #links img{
-        width: 50px;
     }
     #cards{
         display: none;

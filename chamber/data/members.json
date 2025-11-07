@@ -39,6 +39,30 @@
             "url": "website.com",
             "logo": "images/cat.jpg",
             "membership": 2
+        },
+        {
+            "name": "test business",
+            "address": "test Address",
+            "number": "888-888-8888",
+            "url": "website.com",
+            "logo": "images/cat.jpg",
+            "membership": 2
+        },
+        {
+            "name": "test business",
+            "address": "test Address",
+            "number": "888-888-8888",
+            "url": "website.com",
+            "logo": "images/cat.jpg",
+            "membership": 2
+        },
+        {
+            "name": "test business",
+            "address": "test Address",
+            "number": "888-888-8888",
+            "url": "website.com",
+            "logo": "images/cat.jpg",
+            "membership": 2
         }
     ]
 }

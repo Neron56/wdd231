@@ -1,6 +1,13 @@
 @media screen and (max-width: 640px){
     header{
         display: grid;
+        padding: 10px 5%;
+    }
+    #logo{
+        width: 60px;
+    }
+    #title{
+        font-size:large;
     }
     #icon{
         display: block;
@@ -10,29 +17,24 @@
         border: 2px solid;
     }
     #icon img{
-        width: 50px;
+        width: 35px;
     }
     #navigation{
         display: none;
-
     }
-    #sections{
-        display: block;
+    #buttons{
+        width: 50%;
     }
-    #about p{
-        padding: 15px;
+    #businessTable{
+        width: 90%;
     }
-    #certificates{
-        margin-top: 20px;
+    th{
+        padding-left: 5px;
     }
-    #courseList{
-        gap: 10px;
-        justify-content: center;
+    td{
+        padding-left: 5px;
     }
-    #courseList section{
-        width: 80%;
-    }
-    #courseList h3{
-        margin: 5px 0px;
+    #businessCards{
+        flex-wrap: wrap;
     }
 }
