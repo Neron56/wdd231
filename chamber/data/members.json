@@ -6,7 +6,7 @@
             "number": "888-888-8888",
             "url": "CatsRUs.com",
             "logo": "images/cat.jpg",
-            "membership": 2
+            "membership": 1
         },
         {
             "name": "Business Creators",
@@ -22,46 +22,38 @@
             "number": "468-468-4687",
             "url": "WarehouseForTools.com",
             "logo": "images/tool-warehouse.jpeg",
-            "membership": 2
+            "membership": 3
         },
         {
             "name": "Neighborhood Grocers",
             "address": "37 Spring Avenue, Calycanthaceae, USA",
-            "number": "888-888-8888",
-            "url": "website.com",
-            "logo": "images/neighborhood-grocer.png",
+            "number": "518-135-8445",
+            "url": "your-local-grocers.com",
+            "logo": "images/neighborhood-grocer.jpg",
+            "membership": 3
+        },
+        {
+            "name": "The dog Walker",
+            "address": "2300 S 1276 W Nexttownover, USA",
+            "number": "654-654-3185",
+            "url": "Walkin-ya-dog.com",
+            "logo": "images/the-dog-walker.jpg",
             "membership": 2
         },
         {
-            "name": "test business",
-            "address": "test Address",
-            "number": "888-888-8888",
-            "url": "website.com",
-            "logo": "images/cat.jpg",
-            "membership": 2
+            "name": "Greg's Great Gourds",
+            "address": "327 Gourdon Avenue, Calycanthaceae, USA",
+            "number": "888-156-5145",
+            "url": "GregsGreatGourds.com",
+            "logo": "images/gregs-great-gourds.jpg",
+            "membership": 1
         },
         {
-            "name": "test business",
-            "address": "test Address",
-            "number": "888-888-8888",
-            "url": "website.com",
-            "logo": "images/cat.jpg",
-            "membership": 2
-        },
-        {
-            "name": "test business",
-            "address": "test Address",
-            "number": "888-888-8888",
-            "url": "website.com",
-            "logo": "images/cat.jpg",
-            "membership": 2
-        },
-        {
-            "name": "test business",
-            "address": "test Address",
-            "number": "888-888-8888",
-            "url": "website.com",
-            "logo": "images/cat.jpg",
+            "name": "Motor Central",
+            "address": "806 Business Drive, Calycanthaceae, USA",
+            "number": "925-418-3854",
+            "url": "motorCentral.com",
+            "logo": "images/motor-central.png",
             "membership": 2
         }
     ]
