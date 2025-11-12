@@ -3,23 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Directory</title>
-        <meta name="description" content="A page used to find a list of buisnesses found within the area the CCC covers, available in table or grid style!">
+        <title>Calycanthaceae Chamber of Commerce</title>
+        <meta name="description" content="A landing page for the Calycanthaceae Chamber of Commerce. Theres always something fun happening down here, so drop on by!">
         <meta name="author" content="Michael Shaw">
         <link rel="icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="styles/directory-large.css">
-        <link rel="stylesheet" href="styles/directory.css">
-        <script src="scripts/directory.js" defer></script>
+        <link rel="stylesheet" href="styles/base-large.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <script src="scripts/weather.js" defer></script>
         <script src="../scripts/date.js" defer></script>
         <script src="../scripts/navigation.js" defer></script>
-        <script src="scripts/directory-type.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <meta property="og:title" content="Calycanthaceae Chamber of Commerce Directory">
-        <meta property="og:description" content="A useful Directory of all the businesses found in this fine city">
+        <meta property="og:title" content="Calycanthaceae Chamber of Commerce">
+        <meta property="og:description" content="Home page for the Calycanthaeae Chamber of Commerce to give you information about our great area.">
         <meta property="og:image" content="https://neron56.github.io/wdd231/chamber/images/chamber-building.jpg">
-        <meta property="og:url" content="https://neron56.github.io/wdd231/chamber/directory.html">
+        <meta property="og:url" content="https://neron56.github.io/wdd231/chamber/index.html">
     </head>
     <body>
         <header>
@@ -33,30 +32,31 @@
                 </a>
             </div>
             <nav id="navigation">
-                <a href="index.html">Home</a>
-                <a href="directory.html" id="current">Directory</a>
+                <a href="index.html" id="current">Home</a>
+                <a href="directory.html">Directory</a>
                 <a href="#">Join</a>
                 <a href="#">Discover</a>
             </nav>
         </header>
         <main>
-            <h1>Business Directory</h1>
-            <div id="buttons">
-                <button id="tableIcon">Table</button>
-                <button id="cardIcon">Grid</button>
-            </div>
-            <div id="businessDetails">
-                <table id="businessTable">
-                    <tr>
-                        <th>Name</th>
-                        <th>Address</th>
-                        <th>Phone-Number</th>
-                        <th>Website</th>
-                    </tr>
-                </table>
-                <div id="businessCards">
+            <section id="heroimage">
 
+            </section>
+            <h1>Home</h1>
+            <section id="sections">
+                <div id="events">
+                    <h2>Events</h2>
+                    <div id="eventList"></div>
                 </div>
+                <div id="currentWeather">
+                    <h2>Current Weather</h2>
+                </div>
+                <div id="forcast">
+                    <h2>Weather Forcast</h2>
+                </div>
+            </section>
+            <div id="businessCards">
+
             </div>
         </main>
         <footer>

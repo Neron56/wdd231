@@ -1,0 +1,77 @@
+:root{
+    --primary-color: #083e7a;
+    --secondary-color: #b2dcff;
+    --tertiary-color: #5f9ea0;
+    --font-family: "Roboto";
+}
+@media screen and (min-width: 320px){
+    main{
+        font-family: "roboto";
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    header{
+        margin: 10px 0px;
+        padding: 0px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        background-color: var(--primary-color);
+        color: #e9effa;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 10px;
+    }
+    #title{
+        color: #e9effa;
+        font-size: 30px;
+    }
+    #logo{
+        width: 90px;
+    }
+    #icon{
+        display:none;
+    }
+    nav{
+        background-color: var(--primary-color);
+        padding:15px;
+        font-size: 20px;
+    }
+    #current{
+        text-decoration: underline;
+    }
+    nav a{
+        padding:0px 10px;
+        text-decoration: none;
+        color: #e9effa;
+    }
+    nav a:hover{
+        color: var(--tertiary-color);
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        color: #e9effa;
+        background-color: var(--primary-color);
+        text-align: center;
+    }
+    #businessDetails{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+        text-align: center;
+        display:grid;
+        background-color: var(--secondary-color);
+        padding:10px 0px;
+    }
+}
