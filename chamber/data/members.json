@@ -1,6 +1,7 @@
 {
     "businesses":[
         {
+            "id": 0,
             "name": "Cats 'R' Us",
             "address": "1392 S 5620 W, Calycanthaceae, USA",
             "number": "888-888-8888",
@@ -9,6 +10,7 @@
             "membership": 1
         },
         {
+            "id": 1,
             "name": "Business Creators",
             "address": "105 Business Drive, Nexttownover, USA",
             "number": "777-777-7777",
@@ -17,6 +19,7 @@
             "membership": 2
         },
         {
+            "id": 2,
             "name": "Tool Warehouse",
             "address": "707 Business Drive, Nexttownover, USA",
             "number": "468-468-4687",
@@ -25,6 +28,7 @@
             "membership": 3
         },
         {
+            "id": 3,
             "name": "Neighborhood Grocers",
             "address": "37 Spring Avenue, Calycanthaceae, USA",
             "number": "518-135-8445",
@@ -33,6 +37,7 @@
             "membership": 3
         },
         {
+            "id": 4,
             "name": "The dog Walker",
             "address": "2300 S 1276 W Nexttownover, USA",
             "number": "654-654-3185",
@@ -41,6 +46,7 @@
             "membership": 2
         },
         {
+            "id": 5,
             "name": "Greg's Great Gourds",
             "address": "327 Gourdon Avenue, Calycanthaceae, USA",
             "number": "888-156-5145",
@@ -49,6 +55,7 @@
             "membership": 1
         },
         {
+            "id": 6,
             "name": "Motor Central",
             "address": "806 Business Drive, Calycanthaceae, USA",
             "number": "925-418-3854",

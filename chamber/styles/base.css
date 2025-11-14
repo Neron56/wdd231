@@ -22,7 +22,19 @@
     #navigation{
         display: none;
     }
+    #call h2{
+        font-size: medium;
+    }
+    #sections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #sections div{
+        width: 90%;
+    }
     #businessCards{
+        display: flex;
         flex-wrap: wrap;
     }
 }
