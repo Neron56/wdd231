@@ -2,6 +2,7 @@ const latitude = -3.01;
 const longitude = 16.78;
 const apiKey = "ee5c4d8ea358463375cfeeabfcff2f70";
 getWeather()
+getForcast()
 async function getWeather() {
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`);
     let weather = await response.json();
@@ -21,11 +22,10 @@ async function getWeather() {
     weatherData.appendChild(low);
 
     document.querySelector("#currentWeather").appendChild(weatherData);
-    getForcast()
 }
 
 async function getForcast() {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`)
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`)
     let forcasts = await response.json();
     let forcast = document.createElement("div")
     let day1 = document.createElement("h3");
