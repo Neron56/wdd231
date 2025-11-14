@@ -2,7 +2,6 @@ const latitude = -3.01;
 const longitude = 16.78;
 const apiKey = "ee5c4d8ea358463375cfeeabfcff2f70";
 getWeather()
-getForcast()
 async function getWeather() {
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`);
     let weather = await response.json();
@@ -22,6 +21,7 @@ async function getWeather() {
     weatherData.appendChild(low);
 
     document.querySelector("#currentWeather").appendChild(weatherData);
+    getForcast()
 }
 
 async function getForcast() {
@@ -45,9 +45,7 @@ async function getForcast() {
 
 function getTwoDaysFromNow() {
     let currentDate = new Date().getDay();
-    console.log(currentDate);
     let twoDaysFromNow;
-    console.log(twoDaysFromNow);
     switch(currentDate){
         case 0:
             twoDaysFromNow = "Sunday"
