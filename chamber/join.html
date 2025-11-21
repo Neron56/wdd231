@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join</title>
+        <meta name="description" content="A page to join the fun in the Calycanthaceae Chamber of Commerce, giving exclusive perks for each membership level">
+        <meta name="author" content="Michael Shaw">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/join-large.css">
+        <link rel="stylesheet" href="styles/join.css">
+        <script src="../scripts/date.js" defer></script>
+        <script src="../scripts/navigation.js" defer></script>
+        <script src="scripts/form.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Calycanthaceae Chamber of Commerce join application">
+        <meta property="og:description" content="The page used for applying to join the Calycanthaceae Chamber of Commerce">
+        <meta property="og:image" content="https://neron56.github.io/wdd231/chamber/images/chamber-building.jpg">
+        <meta property="og:url" content="https://neron56.github.io/wdd231/chamber/join.html">
+    </head>
+    <body>
+        <header>
+            <div>
+                <div>
+                    <img src="images/cat.jpg" id="logo" alt="The Chambers logo/pet cat">
+                    <span id="title">Calycanthaceae Chamber of Commerce</span>
+                </div>
+                <a id="icon">
+                    <img src="images/hamburger-icon.svg" alt="hamburger menu" width="30">
+                </a>
+            </div>
+            <nav id="navigation">
+                <a href="index.html">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html" id="current">Join</a>
+                <a href="#">Discover</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Join the Community</h1>
+            <section id="fillout">
+                <form method="get" action="thankyou.html">
+                    <label for="firstName">First Name<br>
+                        <input type="text" title="First Name" id="firstName" name="firstName" autocomplete="given-name" required>
+                    </label><br>
+                    <label for="lastName">Last Name<br>
+                        <input type="text" title="Last Name" id="lastName" name="lastName" autocomplete="family-name" required>
+                    </label><br>
+                    <label for="organizationalTitle">Title<br>
+                        <input type="text" title="Organization Title" id="organizationalTitle" name="organizationalTitle" autocomplete="organization-title" pattern="">
+                    </label><br><br>
+                    <label for="email">Email<br>
+                        <input type="email" title="Email" id="email" name="email" autocomplete="email" placeholder="example@example.com" required>
+                    </label><br>
+                    <label for="phoneNumber">Mobile Phone Number<br>
+                        <input type="tel" title="Phone Number" id="phoneNumber" name="phoneNumber" autocomplete="tel" required>
+                    </label><br><br>
+                    <label for="businessName">Business/Organization Name<br>
+                        <input type="text" title="Business/Organization Name" id="businessName" name="businessName" autocomplete="organization" required>
+                    </label>
+                    <p>Membership Level</p>
+                    <input type="radio" title="Non-Profit Tier" id="np" name="membershipLevel">NP<br>
+                    <input type="radio" title="Bronze Tier" id="bronze" name="membershipLevel">Bronze<br>
+                    <input type="radio" title="Silver Tier" id="silver" name="membershipLevel">Silver<br>
+                    <input type="radio" title="Gold Tier" id="gold" name="membershipLevel">Gold<br><br>
+                    <label id="description">Your short description <br> (please limit to 3 sentences)<br>
+                        <textarea required></textarea>
+                    </label><br>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Get on the List" id="submit">
+                </form>
+                <dialog id="modal">
+                </dialog>
+                <div id="membershipLevels">
+                    <div id="nonProfitTier">
+                        <h3>Non-Profit Membership Level</h3>
+                        <button id="openNonProfit">Learn More</button>
+                    </div>
+                    <div id="bronzetier">
+                        <h3>Bronze Membership Level</h3>
+                        <button id="openBronze">Learn More</button>
+                    </div>
+                    <div id="silverTier">
+                        <h3>Silver Membership Level</h3>
+                        <button id="openSilver">Learn More</button>
+                    </div>
+                    <div id="goldTier">
+                        <h3>Gold Membership Level</h3>
+                        <button id="openGold">Learn More</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <span id="currentYear"></span>
+            <span id="lastModified"></span>
+        </footer>
+    </body>
+</html>

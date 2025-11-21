@@ -1,0 +1,40 @@
+@media screen and (max-width: 640px){
+    header{
+        display: grid;
+        padding: 10px 5%;
+    }
+    #logo{
+        width: 60px;
+    }
+    #title{
+        font-size:large;
+    }
+    #icon{
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+        background-color: #d7ecff;
+        border: 2px solid;
+    }
+    #icon img{
+        width: 35px;
+    }
+    #navigation{
+        display: none;
+    }
+    #call h2{
+        font-size: medium;
+    }
+    #sections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #sections div{
+        width: 90%;
+    }
+    #businessCards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
