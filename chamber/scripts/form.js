@@ -1,6 +1,7 @@
-const formLoadTime = new Date()
+const formLoadTime = `${new Date()}`
 const timestamp = document.querySelector("#timestamp");
 timestamp.innerHTML = formLoadTime;
+console.log(formLoadTime)
 
 const membership = document.querySelector("#modal");
 const nonProfitButton = document.querySelector("#openNonProfit");
