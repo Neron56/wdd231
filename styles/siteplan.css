@@ -1,0 +1,27 @@
+:root{
+    --font: "Roboto";
+    --primary-color: rgb(255, 49, 22);
+    --secondary-color: rgb(238, 219, 195);
+    --tertiary-color: rgb(87, 31, 31);
+}
+
+header{
+    background-color: var(--tertiary-color);
+}
+h1{
+    font-family:  var(--font);
+    color: var(--primary-color);
+}
+h2, h3{
+    font-family: var(--font);
+}
+p{
+    font-family: var(--font);
+    color: var(--secondary-color);
+}
+#information{
+    background-color: var(--secondary-color);
+}
+img{
+    width: 600px;
+}
