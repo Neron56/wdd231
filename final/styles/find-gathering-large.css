@@ -41,7 +41,7 @@
         font-size: 30px;
     }
     #logo{
-        width: 90px;
+        width: 50px;
     }
     #icon{
         display:none;
@@ -244,6 +244,10 @@
     }
     form input[type="submit"]{
         width:100%;
+    }
+    form input[type="radio"]{
+        width: 20px;
+        height: 20px;
     }
     #role p{
         text-align: center;

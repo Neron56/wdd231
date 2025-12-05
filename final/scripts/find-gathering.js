@@ -33,7 +33,7 @@ function createTable(campaigns) {
             currentDm.innerHTML = `<input type='checkbox' disabled>`;
         }
         else {
-            currentDm.innerHTML = `<input class='checkbox' type='checkbox' disabled checked>`;
+            currentDm.innerHTML = `<label><input class='checkbox' type='checkbox' disabled checked></label>`;
         }   
         shortDescription.innerHTML = `<button id=${element.id} class="tableButton">Read Description</button>`;
         shortDescription.addEventListener("click", () =>{
