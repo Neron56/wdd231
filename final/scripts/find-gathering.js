@@ -30,10 +30,10 @@ function createTable(campaigns) {
         campaignName.textContent = element.name;
         playerAmount.textContent = element.party_size;
         if (element.dm_status == "No" ){
-            currentDm.innerHTML = `<input type='checkbox' disabled>`;
+            currentDm.innerHTML = `<img src="images/x.svg" alt="X marks the spot, We don't got one" class="currentDM">`;
         }
         else {
-            currentDm.innerHTML = `<label><input class='checkbox' type='checkbox' disabled checked></label>`;
+            currentDm.innerHTML = `<img src="images/checkmark.svg" alt="Checkmark, We got one" class="currentDM">`;
         }   
         shortDescription.innerHTML = `<button id=${element.id} class="tableButton">Read Description</button>`;
         shortDescription.addEventListener("click", () =>{

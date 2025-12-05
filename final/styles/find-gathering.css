@@ -1,9 +1,3 @@
-:root{
-    --font: "Alan Sans";
-    --primary-color: rgb(255, 49, 22);
-    --secondary-color: rgb(238, 219, 195);
-    --tertiary-color: rgb(87, 31, 31);
-}
 @media screen and (max-width: 640px) {
     header{
         display: grid;
