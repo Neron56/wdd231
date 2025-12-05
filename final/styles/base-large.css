@@ -73,11 +73,11 @@
         max-width: 90%;
     }
     footer{
-        width: 100%;
         background-color: var(--tertiary-color);
         padding:10px;
         display: flex;
         justify-content: center;
+        color: var(--secondary-color);
     }
     h2{
         color: var(--tertiary-color);

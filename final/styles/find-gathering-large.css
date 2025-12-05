@@ -191,11 +191,11 @@
         row-gap: 20px;
     }
     footer{
-        width: 100%;
         background-color: var(--tertiary-color);
         padding:10px;
         display: flex;
         justify-content: center;
+        color: var(--secondary-color);
     }
     h1{
         font-family:  var(--font);

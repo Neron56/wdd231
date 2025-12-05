@@ -71,6 +71,7 @@
         padding:10px;
         display: flex;
         justify-content: center;
+        color: var(--secondary-color);
     }
     h1, h2{
         font-family:  var(--heading-font);

@@ -92,11 +92,11 @@ function createCards(campaigns) {
             playerAmount.setAttribute("id","partySize")
             playerAmount.textContent = `Party Size: ${element.party_size}`;
             if (element.dm_status == "No" ){
-                currentDm.innerHTML = `DM Status: <input type='checkbox' disabled>`;
+                currentDm.innerHTML = `DM Status: <img src="images/x.svg" alt="X marks the spot, We don't got one" class="currentDM">`;
             }
             else {
-                currentDm.innerHTML = `DM Status: <input class='checkbox' type='checkbox' disabled checked>`;
-            }
+                currentDm.innerHTML = `DM Status: <img src="images/checkmark.svg" alt="Checkmark, We got one" class="currentDM">`;
+            }   
             currentDm.setAttribute("id","dmStatus")
             shortDescription.setAttribute("id", element.id);
             shortDescription.setAttribute("class", "description");
