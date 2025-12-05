@@ -1,0 +1,266 @@
+:root{
+    --font: "Alan Sans";
+    --primary-color: rgb(255, 49, 22);
+    --secondary-color: rgb(238, 219, 195);
+    --tertiary-color: rgb(87, 31, 31);
+}
+@media screen and (min-width: 320px){
+    body{
+        background-color: var(--secondary-color);
+    }
+    main{
+        font-family: var(--font);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    main p{
+        font-family: var(--body-font);
+        width: 50%;
+    }
+    header{
+        margin: 10px 0px;
+        padding: 0px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        background-color: var(--tertiary-color);
+        color: #e9effa;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 10px;
+    }
+    #title{
+        font-family: var(--font);
+        color: var(--primary-color);
+        font-size: 30px;
+    }
+    #logo{
+        width: 90px;
+    }
+    #icon{
+        display:none;
+    }
+    nav{
+        padding:15px;
+        font-size: 20px;
+    }
+    #current{
+        text-decoration: underline;
+    }
+    nav a{
+        font-family: var(--font);
+        padding:0px 10px;
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+    nav a:hover{
+        color: var(--secondary-color);
+    }
+    h1{
+        font-family: var(--font);
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        color: var(--primary-color);
+        text-align: center;
+        margin-top: 0px;
+        padding: 5px;
+    }
+    h3{
+        width: 100%;
+        background-color: var(--tertiary-color);
+        color: #ffe9e9;
+        margin-top: 0px;
+    }
+    dialog{
+        max-width: 60%;
+        border: 3px solid var(--tertiary-color);
+        background-color: var(--secondary-color);
+        place-items: center;
+        text-align: center;
+    }
+    dialog h3{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    dialog p{
+        width: 100%;
+    }
+    #blurb{
+        max-width: 1200px;
+        margin: auto auto 20px;
+    }
+    #buttons{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: auto;
+    }
+    .icons{
+        border: 2px solid var(--tertiary-color);
+        background-color: #fffbe7;
+        width: 100px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .icons:hover{
+        background-color: #f1eedc;
+    }
+    table{
+        width:80%;
+        margin-bottom: 20px;
+        border:2px solid rgb(131, 87, 45);
+    }
+    th{
+        background-color: rgb(255, 166, 125);
+    }
+    td{
+        max-width: 600px;
+        text-align: center;
+    }
+    tr{
+        height: 40px;
+    }
+    tr:nth-child(even) {
+        background-color: rgb(255, 232, 203);
+    }
+    tr:hover{
+        background-color: rgb(231, 207, 176);
+    }
+    .button{
+        align-self: center;
+    }
+    #campaignCards{
+        display: none;
+        width: 100%;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 20px;
+        place-items: center;
+    }
+    .card{
+        width: 100%;
+        height: 250px;
+        background-color: var(--secondary-color);
+        border: 2px solid var(--tertiary-color);
+        display: grid;
+        grid-template-areas:
+        "title title"
+        "party status"
+        "description description"
+        "start address"
+        "join join"
+        ;
+        place-items: center;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .card h3{
+        grid-area: title;
+        margin: 5px 0px;
+    }
+    #partySize{
+        grid-area: party;
+    }
+    #dmStatus{
+        grid-area: status;
+    }
+    .description{
+        grid-area: description;
+        height: 30px;
+        background-color: #fffbe7;
+    }
+    .description:hover{
+        background-color: #f1eedc;
+    }
+    .apply{
+        grid-area: join;
+        height: 30px;
+        background-color: #fffbe7;
+    }
+    .apply:hover{
+        background-color: #f1eedc;
+    }
+    .card p{
+        margin: 5px;
+    }
+    #cards{
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    footer{
+        width: 100%;
+        background-color: var(--tertiary-color);
+        padding:10px;
+        display: flex;
+        justify-content: center;
+    }
+    h1, h2{
+        font-family:  var(--heading-font);
+        color: var(--primary-color);
+        margin-bottom: 5px;
+    }
+    footer p{
+        font-family: var(--body-font);
+        color: var(--secondary-color);
+    }
+    a{
+        color: var(--tertiary-color);
+    }
+    a:hover{
+        color: var(--primary-color);
+    }
+    img{
+        width: 600px;
+    }
+    form{
+        width: 90%;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 30% 20% 1fr;
+        color: rgb(116, 48, 9);
+    }
+    form .infoClump{
+        width: 100%;
+        height: 200px;
+        display: grid;
+    }
+    form .infoClump input{
+        text-align: center;
+    }
+    textarea{
+        width:100%;
+        min-height:75%;
+    }
+    form input[type="submit"]{
+        width:100%;
+    }
+    #role p{
+        text-align: center;
+    }
+    #selectedCampaign{
+        border:2px solid rgb(131, 87, 45);
+        background-color: rgb(255, 239, 204);
+        width: 60%;
+        display:grid;
+        place-items: center;
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+    #selectedCampaign h3{
+        text-align: center;
+        margin: 5px 2px;
+        color: var(--tertiary-color);
+        background-color: hwb(41 80% 0%);
+    }
+}

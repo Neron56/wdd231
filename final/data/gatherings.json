@@ -1,0 +1,138 @@
+{
+  "campaigns":[
+{
+      "id": "zero",
+      "name": "Echoes of the Starfall Spire",
+      "party_size": "3/6",
+      "dm_status": "Yes",
+      "description": "A cosmic-fantasy journey about an astral tower that crashed from the heavens, warping reality in its wake. The party will explore fractured landscapes and encounter star-touched beings. Hidden within the tower lies knowledge that could rewrite fate itself.",
+      "start_date": "1/11/26",
+      "city": "Ogden, Utah"
+    },
+    {
+      "id": "one",
+      "name": "The Bramblekings Debt",
+      "party_size": "5/7",
+      "dm_status": "No",
+      "description": "The players are a whimsical mix of feybloods and nature-loving adventurers seeking a lighthearted, magical journey. They enjoy mischievous NPCs, cozy vibes, and a story that leans into trickery, bargains, and soft chaos. They hope to find a DM interested in forest exploration and emotional fey drama.",
+      "start_date": "2/2/26",
+      "city": "Roy, Utah"
+    },
+    {
+      "id": "two",
+      "name": "Ironwake Below",
+      "party_size": "2/6",
+      "dm_status": "Yes",
+      "description": "A gritty subterranean campaign focused on collapsing industrial cities and buried mechanical titans. Players must navigate toxic caverns, warring guilds, and ancient machinery stirring from beneath the earth. Every delve hints at a looming awakening deep below.",
+      "start_date": "1/25/26",
+      "city": "Clinton, Utah"
+    },
+    {
+      "id": "three",
+      "name": "Lanterns on the Bloodshore",
+      "party_size": "4/8",
+      "dm_status": "Yes",
+      "description": "A dark nautical adventure featuring haunted coastlines, drowned temples, and ghostly pirates. Crimson tides wash ashore with cryptic messages from spirits beneath the waves. The party must decide whether to appease the dead or seek the truth in the abyss.",
+      "start_date": "3/8/26",
+      "city": "Layton, Utah"
+    },
+    {
+      "id": "four",
+      "name": "The Clockseed Conspiracy",
+      "party_size": "6/9",
+      "dm_status": "No",
+      "description": "This group loves high-intrigue urban adventures filled with puzzles and time-bending anomalies. They prefer heavy roleplay where alliances matter and every NPC may be lying. They are seeking a DM who enjoys conspiracies, twists, and temporal weirdness.",
+      "start_date": "1/18/26",
+      "city": "Roy, Utah"
+    },
+    {
+      "id": "five",
+      "name": "The Mourning Forge",
+      "party_size": "1/5",
+      "dm_status": "Yes",
+      "description": "A mythic-fantasy campaign centered around an ancient forge where divine weapons were once created. Now the land is haunted by quiet spirits drawn to the smoldering ruins. The party must reignite the forge and uncover truths older than memory.",
+      "start_date": "2/16/26",
+      "city": "Ogden, Utah"
+    },
+    {
+      "id": "six",
+      "name": "Jadevine Labyrinth",
+      "party_size": "2/10",
+      "dm_status": "Yes",
+      "description": "A shifting megadungeon of living vines filled with druidic puzzles and nature spirits. Illusions and guardians test intruders seeking the labyrinth's heart. Legends claim a seed within can birth a new forest god.",
+      "start_date": "3/29/26",
+      "city": "Layton, Utah"
+    },
+    {
+      "id": "seven",
+      "name": "Blades of the Ember Choir",
+      "party_size": "4/6",
+      "dm_status": "No",
+      "description": "The group consists mostly of martial classes who love tactical combat and teamwork. They enjoy cinematic battles and coordinated strategies. They want a DM who can challenge them with disciplined foes and high-energy action arcs.",
+      "start_date": "1/9/26",
+      "city": "Ogden, Utah"
+    },
+    {
+      "id": "eight",
+      "name": "Rivers of Glass",
+      "party_size": "3/5",
+      "dm_status": "Yes",
+      "description": "A high-magic desert campaign where enchanted glass rivers flow between dunes. Djinn and ancient empires guard crystal oases and hidden histories. The party must choose whether to restore or shatter the desert's magical balance.",
+      "start_date": "2/22/26",
+      "city": "Clinton, Utah"
+    },
+    {
+      "id": "nine",
+      "name": "Candlewake Academy",
+      "party_size": "7/10",
+      "dm_status": "No",
+      "description": "A group of spellcasters seeking a magical-school-style campaign full of mysteries and arcane rivalries. They enjoy whimsical adventures mixed with dark academic secrets. They’re looking for a DM skilled in magical mishaps and labyrinthine histories.",
+      "start_date": "4/4/26",
+      "city": "Roy, Utah"
+    },
+    {
+      "id": "ten",
+      "name": "The Shattered Herald",
+      "party_size": "1/4",
+      "dm_status": "Yes",
+      "description": "A post-apocalyptic fantasy where the Herald of Prophecy has split into seven wandering fragments. Each fragment manipulates fate in its own strange way. The party must reunite them before destiny collapses entirely.",
+      "start_date": "1/14/26",
+      "city": "Ogden, Utah"
+    },
+    {
+      "id": "eleven",
+      "name": "Honeythorn Outriders",
+      "party_size": "6/8",
+      "dm_status": "No",
+      "description": "A nature-loving group of druids, rangers, and barbarians who enjoy frontier exploration. They want beast-riding adventures, ecosystem-driven storytelling, and moral wilderness challenges. Their ideal DM brings rugged landscapes and complex wildlife encounters.",
+      "start_date": "3/5/26",
+      "city": "Layton, Utah"
+    },
+    {
+      "id": "twelve",
+      "name": "The Wraithwell Concord",
+      "party_size": "2/7",
+      "dm_status": "Yes",
+      "description": "In a land where spectral wells open gateways to ghost realms, factions of spirits seek alliances with the living. Diplomatic horror mixes with high-stakes negotiation. The party must navigate a world where even the dead hold political power.",
+      "start_date": "4/12/26",
+      "city": "Clinton, Utah"
+    },
+    {
+      "id": "thirteen",
+      "name": "Songs of the Hollow Tides",
+      "party_size": "4/6",
+      "dm_status": "No",
+      "description": "A roleplay-heavy group who loves emotional arcs and relationship-driven storytelling. They enjoy melancholic ocean themes and morally complex narratives. They're looking for a DM who excels at deep lore and character-centered drama.",
+      "start_date": "1/30/26",
+      "city": "Roy, Utah"
+    },
+    {
+      "id": "fourteen",
+      "name": "The Gilded Root Rebellion",
+      "party_size": "3/9",
+      "dm_status": "Yes",
+      "description": "A rebellion campaign facing a tyrannical empire that harvests magical roots to maintain their rule. The party sparks uprisings, infiltrates cities, and uncovers the emperor’s secret to immortality. If the roots fall, so does the empire.",
+      "start_date": "2/27/26",
+      "city": "Ogden, Utah"
+    }
+]}    

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta name="description" content="A place to submit a gathering, created for WDD 131">
+        <meta name="author" content="Michael Shaw">
+        <title>Submit your Party</title>
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/submit-gathering.js" defer></script>
+        <link rel="stylesheet" href="styles/submit-gathering-large.css">
+        <link rel="stylesheet" href="styles/submit-gathering.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Merriweather:opsz,wght@18..144,300..900&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Submit a Campaign Request">
+        <meta property="og:image" content="images/dragon.jpg">
+        <meta property="og:description" content="Put in just a bit of info, and soon find the perfect party for the epic roleplaying game, Dungeons and Dragons!">
+        <meta property="og:url" content="https://neron56.github.io/wdd231/final/submit-gathering.html">
+    </head>
+    <body>
+        <header>
+            <div>
+                <div>
+                    <a href="../index.html"><img id="logo" src="images/logo.webp" alt="Dungeons and Dragons logo" loading="lazy"></a>
+                    <span id="title">Squad Up Adventures</span>
+                </div>
+                <a id="icon">
+                    <img src="images/hamburger-icon.svg" alt="Hamburger Menu" width="30">
+                </a>
+            </div>
+            <nav id="navigation">
+                <a href="index.html">Home</a>
+                <a href="find-gathering.html">Find Gatherings</a>
+                <a href="submit-gathering.html" id="current">Submit a Gathering</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Welcome to the party!</h1>
+            <p>
+                Couldn't <a href="find-gathering.html">find the perfect game?</a> No worries, just create your own! <br>
+                *All fields are required!
+            </p>
+            <div id="selectedCampaign">
+                <form method="get" action="application.html">
+                    <label id="groupName">Name of the group<br>
+                        <input type="text" title="Group Name" id="name" name="name" required>
+                    </label>
+                    <div class="infoClump">
+                        <label>What day is the campaign wanting to start?<br>
+                            <input type="date" title="Start Date" id="date" name="date" required>
+                        </label>
+                        <label>How many players are there?<br>
+                            <input type="number" title="Player Count" id="count" name="count" required>
+                        </label>
+                        <label>What is your max player count?<br>
+                            <input type="number" title="Max Amount of Players" id="max" name="max" required>
+                        </label>
+                    </div>
+                    <div class="infoClump" id="role">
+                        <label>What city is the party gathering in?<br>
+                            <input type="text" title="Gathering City" id="place" name="place" required>
+                        </label>
+                        <p>Are you looking for a Dungeon Master?</p>
+                        <div>
+                            <label>
+                                <input type="radio" id="yes" name="dm" required>Yes
+                            </label>
+                            <label>
+                                <input type="radio" id="no" name="dm">No
+                            </label>
+                        </div>
+                        <label id="requestedEmail">Your email we'll send requests to:<br>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
+                        </label>
+                    </div>
+                    <label id="description">Your short description (please limit to 3 sentences)<br>
+                        <textarea title="description" name="description" required></textarea>
+                    </label>
+                    <input type="submit" value="Get on the List" id="submit">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;<span id="currentyear"></span> Michael Shaw, Utah</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>

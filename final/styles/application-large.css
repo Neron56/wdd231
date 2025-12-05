@@ -1,0 +1,87 @@
+:root{
+    --font: "Alan Sans";
+    --primary-color: rgb(255, 49, 22);
+    --secondary-color: rgb(238, 219, 195);
+    --tertiary-color: rgb(87, 31, 31);
+}
+@media screen and (min-width: 320px){
+    body{
+        background-color: var(--secondary-color);
+    }
+    main{
+        font-family: var(--font);
+        display: grid;
+        place-items: center;
+        text-align: center;
+
+    }
+    main p{
+        font-family: var(--body-font);
+        width: 50%;
+    }
+    header{
+        margin: 10px 0px;
+        padding: 0px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        background-color: var(--tertiary-color);
+        color: #e9effa;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 10px;
+    }
+    #title{
+        font-family: var(--font);
+        color: var(--primary-color);
+        font-size: 30px;
+    }
+    #logo{
+        width: 90px;
+    }
+    #icon{
+        display:none;
+    }
+    nav{
+        padding:15px;
+        font-size: 20px;
+    }
+    #current{
+        text-decoration: underline;
+    }
+    nav a{
+        font-family: var(--font);
+        padding:0px 10px;
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+    nav a:hover{
+        color: var(--secondary-color);
+    }
+    #knight{
+        border: 2px solid rgb(131, 87, 45);
+        margin-bottom: 20px;
+    }
+    footer{
+        background-color: var(--tertiary-color);
+        padding:10px;
+        display: flex;
+        justify-content: center;
+    }
+    h1, h2{
+        font-family:  var(--heading-font);
+        color: var(--primary-color);
+    }
+    main p{
+        font-family: var(--body-font);
+        width: 50%;
+    }
+    footer p{
+        font-family: var(--body-font);
+        color: var(--secondary-color);
+    }
+}

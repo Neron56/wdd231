@@ -1,0 +1,25 @@
+@media screen and (max-width: 640px) {
+    header{
+        display: grid;
+        padding: 10px 5%;
+    }
+    #icon{
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+        background-color: var(--secondary-color);
+        border: 2px solid;
+    }
+    #icon img{
+        width: 35px;
+    }
+    #navigation{
+        display: none;
+    }
+    #dragon{
+        max-width: 95%;
+    }
+    #blurb{
+        max-width: 90%;
+    }
+}

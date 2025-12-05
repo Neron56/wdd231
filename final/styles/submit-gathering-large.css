@@ -1,0 +1,149 @@
+:root{
+    --font: "Alan Sans";
+    --primary-color: rgb(255, 49, 22);
+    --secondary-color: rgb(238, 219, 195);
+    --tertiary-color: rgb(87, 31, 31);
+}
+@media screen and (min-width: 320px){
+    body{
+        background-color: var(--secondary-color);
+    }
+    main{
+        font-family: var(--font);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    main p{
+        font-family: var(--body-font);
+        width: 50%;
+    }
+    header{
+        margin: 10px 0px;
+        padding: 0px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        background-color: var(--tertiary-color);
+        color: #e9effa;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        gap: 10px;
+    }
+    #title{
+        font-family: var(--font);
+        color: var(--primary-color);
+        font-size: 30px;
+    }
+    #logo{
+        width: 90px;
+    }
+    #icon{
+        display:none;
+    }
+    nav{
+        padding:15px;
+        font-size: 20px;
+    }
+    #current{
+        text-decoration: underline;
+    }
+    nav a{
+        font-family: var(--font);
+        padding:0px 10px;
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+    nav a:hover{
+        color: var(--secondary-color);
+    }
+    a{
+        color:var(--tertiary-color)
+    }
+    a:hover{
+        color: var(--primary-color);
+    }
+    #selectedCampaign{
+        border:2px solid rgb(131, 87, 45);
+        background-color: rgb(255, 239, 204);
+        width: 50%;
+        display:grid;
+        place-items: center;
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+    h1, h2{
+        font-family:  var(--heading-font);
+        color: var(--primary-color);
+        width: 70%;
+        text-align: center;
+    }
+    main p{
+        font-family: var(--body-font);
+        width: 50%;
+        text-align: center;
+    }
+    footer p{
+        font-family: var(--body-font);
+        color: var(--secondary-color);
+    }
+    img{
+        width: 600px;
+    }
+    form{
+        width: 90%;
+        text-align: left;
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        color: rgb(116, 48, 9);
+        text-align: center;
+    }
+    input[type="text"], input[type="email"]{
+        width: 100%;
+        height: 20px;
+    }
+    #groupName{
+        grid-column: 1/3;
+        margin-bottom: 10px;
+    }
+    form .infoClump{
+        width: 100%;
+        height: 200px;
+        display: grid;
+        place-items: center;
+    }
+    form .infoClump input{
+        text-align: center;
+    }
+    form p{
+        margin-bottom: 0px;
+    }
+    textarea{
+        width:100%;
+        min-height:70px;
+    }
+    #description{
+        grid-column: 1/3;
+        min-width: 70%;
+    }
+    #submit{
+        margin-top: 20px;
+        grid-column: 1/3;
+        width: 20%;
+    }
+    #role p{
+        text-align: center;
+    }
+    footer{
+    background-color: var(--tertiary-color);
+        padding:10px;
+        display: flex;
+        justify-content: center;
+    }
+}

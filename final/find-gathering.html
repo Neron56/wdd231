@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta name="description" content="A place to see available submitted gatherings, created for WDD 131">
+        <meta name="author" content="Michael Shaw">
+        <title>Find a Gathering</title>
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script type="module" src="scripts/find-gathering.js"></script>
+        <script type="module" src="scripts/gathering-type.mjs"></script>
+        <link rel="stylesheet" href="styles/find-gathering-large.css">
+        <link rel="stylesheet" href="styles/find-gathering.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Merriweather:opsz,wght@18..144,300..900&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Find a Gathering!">
+        <meta property="og:description" content="Browse a list of available, user submitted, player campaigns and embark on an epic adventure together!">
+        <meta property="og:image" content="https://neron56.github.io/wdd231/final/images/dragon.jpg">
+        <meta property="og:url" content="https://neron56.github.io/wdd231/final/find-gathering.html">
+    </head>
+    <body>
+        <header>
+            <div>
+                <div>
+                    <a href="../index.html"><img id="logo" src="images/logo.webp" alt="Dungeons and Dragons logo" loading="lazy"></a>
+                    <span id="title">Squad Up Adventures</span>
+                </div>
+                <a id="icon">
+                    <img src="images/hamburger-icon.svg" alt="Hamburger Menu" width="30">
+                </a>
+            </div>
+            <nav id="navigation">
+                <a href="index.html">Home</a>
+                <a href="find-gathering.html" id="current">Find Gatherings</a>
+                <a href="submit-gathering.html">Submit a Gathering</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h1>Check out what we have!</h1>
+                <p id="blurb">
+                    Here's a table of all the current Campaigns that either seek a
+                    Dungeon Master, Players, or both! Feel free to browse. If you find
+                    one that you like, click the campaign request button and You'll be able
+                    to fill out the form below. Tell them a bit about yourself, what sort of
+                    adventures you like, a little about your personality. This will be sent
+                    to the poster of the message and they will get in contact with you if
+                    you are what they are looking for!<br>
+                    If you dont see one you like, feel free to <a href="submit-gathering.html">submit your own!</a>
+                </p>
+            </div>
+            <div id="selectedCampaign">
+                <h3 id="campaignName">Select a campaign to Request</h3>
+                <form method="get" action="application.html">
+                    <div class="infoClump">
+                        <label>Name<br>
+                            <input type="text" title="Name" id="name" name="name" autocomplete="name" required>
+                        </label>
+                        <label>Phone Number<br>
+                            <input type="text" title="Phone Number" id="number" name="number" autocomplete="tel" required>
+                        </label>
+                        <label>Email (optional)<br>
+                            <input type="text" title="Email" id="email" name="email" autocomplete="email">
+                        </label>
+                    </div>
+                    <div class="infoClump" id="role">
+                        <p>Joining as:</p>
+                        <label>
+                        <input type="radio" title="Join as DM" id="dm" name="role" required>DM
+                        </label>
+                        <label>
+                            <input type="radio" title="Join as Player" id="player" name="role">Player
+                        </label>
+                    </div>
+                    <label id="message">Your Message (optional)<br>
+                        <textarea title="Peronalized Message" name="personalMessage" id="personalMessage"></textarea>
+                    </label>
+                    <input type="submit" value="Send your Request">
+                </form>
+            </div>
+            <div id="buttons">
+                <button class="icons" id="tableIcon">Table</button>
+                <button class="icons" id="cardIcon">Grid</button>
+            </div>
+            <table id="campaignTable">
+                <tr>
+                    <th>Campiagn Name</th>
+                    <th>Party size</th>
+                    <th>DM Status</th>
+                    <th>Short Description</th>
+                    <th>Start Date</th>
+                    <th>City to Meet in</th>
+                    <th>Send Them a Message!</th>
+                </tr>
+            </table>
+            <div id="campaignCards">
+            </div>
+            <dialog id="modal">
+            </dialog>
+        </main>
+        <footer>
+            <p>&copy;<span id="currentyear"></span> Michael Shaw, Utah</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
