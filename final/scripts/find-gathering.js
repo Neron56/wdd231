@@ -6,14 +6,22 @@ let campaignList = []
 createCampaignList()
 
 async function createCampaignList() {
-    const response = await fetch("https://neron56.github.io/wdd231/final/data/gatherings.json");
-    const campaigns = await response.json();
-    if(window.screen.width <= 640){
-        openCards()
+    try{
+        const response = await fetch("https://neron56.github.io/wdd231/final/data/gatherings.json");
+        const campaigns = await response.json();
+        if(window.screen.width <= 640){
+            openCards()
+        }
+        campaignList = campaigns.campaigns
+        createTable(campaigns.campaigns)
+        createCards(campaigns.campaigns)
+    }catch(error){
+        let campaignTable = document.querySelector("#campaignTable");
+        let campaignCards = document.querySelector("#campaignCards");
+
+        campaignCards.innerHTML = `<p>Sorry! We had some trouble finding the list of campaigns! Wait for a while and try again!</p>`;
+        campaignTable.innerHTML = `<p>Sorry! We had some trouble finding the list of campaigns! Wait for a while and try again!</p>`;
     }
-    campaignList = campaigns.campaigns
-    createTable(campaigns.campaigns)
-    createCards(campaigns.campaigns)
 }
 
 function createTable(campaigns) {
