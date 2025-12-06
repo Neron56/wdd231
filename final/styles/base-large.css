@@ -42,10 +42,11 @@
     }
     #logo{
         width: 50px;
+        aspect-ratio: auto 50/50;
     }
     #icon{
         display:none;
-        width: 35px;
+        aspect-ratio: auto 30/30;
     }
     nav{
         padding:15px;
