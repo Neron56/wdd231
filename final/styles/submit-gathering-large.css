@@ -43,6 +43,7 @@
     }
     #logo{
         width: 50px;
+        aspect-ratio: auto 50/50;
     }
     #icon{
         display:none;
@@ -118,8 +119,8 @@
         height: 20px;
     }
     input[type="radio"]{
-        width: 20px;
-        height: 20px;
+        font-size: 24px;
+        margin-left: 20px;
     }
     #groupName{
         grid-column: 1/3;
