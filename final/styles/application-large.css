@@ -73,7 +73,15 @@
         padding:10px;
         display: flex;
         justify-content: center;
+        align-items: center;
+        gap: 10px;
         color: var(--secondary-color);
+    }
+    #videoLink{
+        color: var(--secondary-color);
+    }
+    #videoLink:hover{
+        color: var(--primary-color);
     }
     h1{
         font-family: var(--font);
