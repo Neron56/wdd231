@@ -18,6 +18,7 @@
     main p{
         font-family: var(--body-font);
         width: 50%;
+        font-display: optional;
     }
     header{
         margin: 10px 0px;
@@ -84,6 +85,7 @@
         background-color: var(--tertiary-color);
         margin-bottom: 5px;
         text-align: center;
+        font-display: optional;
     }
     h2{
         color: var(--tertiary-color);
