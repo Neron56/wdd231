@@ -45,6 +45,7 @@
     }
     #icon{
         display:none;
+        width: 35px;
     }
     nav{
         padding:15px;
@@ -96,7 +97,7 @@
         color: var(--secondary-color);
     }
     #dragon{
-        max-width: 600px;
+        max-width: 50%;
         border: 2px solid rgb(131, 87, 45);
         margin-bottom: 20px;
     }

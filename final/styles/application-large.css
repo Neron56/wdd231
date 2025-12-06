@@ -73,9 +73,21 @@
         justify-content: center;
         color: var(--secondary-color);
     }
-    h1, h2{
-        font-family:  var(--heading-font);
+    h1{
+        font-family: var(--font);
+        width: 100%;
+        text-align: center;
+        background-color: var(--tertiary-color);
         color: var(--primary-color);
+    }
+    h2{
+        font-family: var(--font);
+        color: var(--tertiary-color);
+        background-color: var(--secondary-color);
+        width: 50%;
+        text-align: center;
+        margin-top: 0px;
+        padding: 5px;
     }
     main p{
         font-family: var(--body-font);
